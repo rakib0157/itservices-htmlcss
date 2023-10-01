@@ -1,0 +1,96 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #1d2549;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.banner-heading{
+    font-size: 130px;
+    color: #bdf347;
+}
+.banner-container{
+    display: flex;
+    align-items: center;
+}
+.left-banner{
+    width: 35%;
+}
+.right-banner{
+    width: 65%;
+    padding-left: 58px;
+}
+.banner-slogan{
+    font-size: 32px;
+    color: #ffffff;
+}
+.banner-btn{
+    background-color: #bdf347;
+    text-decoration: underline;
+    font-size: 20px;
+    padding: 20px 30px;
+    border: none;
+    margin-top:40px;
+    cursor: pointer;
+}
+/*==================== team section start  ===================*/
+#team-section{
+    max-width: 1280px;
+    height: 100vh;
+    margin: 0 auto;
+}
+#service-section{
+    max-width: 1280px;
+    padding-top: 100px;
+    height: 100vh;
+    margin: 0 auto;
+}
+.common-section-heading{
+    font-size: 80px;
+    color: #ffffff;
+    border-bottom:10px solid #bdf347;
+    margin: 30px 0px;
+    display: inline-block;
+
+}
+.card-container{
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center; 
+    gap: 52px;
+
+}
+.card{
+    flex: 1;
+}
+.card img{
+    width: 100%
+}
+.card-title{
+   color: #ffffff;
+   padding: 30px;
+}
+/*==================== team section end  ===================*/
+#footer{
+    background-image: url(./images/footerImage.png);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+    margin-top: 300px;
+}
+.footer-container{
+    max-width: 1280px;
+    margin: 0 auto;
+    background: transparent;
+    padding-top:100px;
+}
+.footer-container h4{
+    background: transparent;
+
+}
+.widths{
+    width: 75%;
+    background: transparent;
+}
